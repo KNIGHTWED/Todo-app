@@ -87,7 +87,10 @@ const array = [1, 2, 3, 4, 5];
 
 `$ yarn add react-virtualized`
 
+## 정리
 
+리액트 컴포넌트의 렌더링은 기본적으로 빠르다.
+하지만 리스트와 관련된 컴포넌트를 만들 때 리스트가 100개 이상이고 업데이트가 자주 발생한다면, 최적화를 하는 것을 권장한다.
 
 
 
@@ -100,9 +103,9 @@ const array = [1, 2, 3, 4, 5];
 <h3>오류(경고)</h3>
 
 >`Unexpected template string expression: no-template-curly-in-string`
-
+>
 >위와 같은 Warning이 발생했다면 해당 문자열을 확인해보자.
-
+>
 >```javascript
 >'I am ${name}'
 >// 위와 같이 작성했다면
